@@ -1,7 +1,7 @@
 import React , { useState, useEffect } from 'react';
 
 const Logs = () => {
-
+    setLoading(true);
     const [logs, setLogs] = useState([]);
     const [loading, setLoading] = useState(false);
 
